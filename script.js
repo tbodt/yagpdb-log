@@ -17,7 +17,7 @@ function iloLiKamaPaliAlaPali(paliAlaPali) {
 }
 
 async function lipuOKama(nasinLipu) {
-  let nasin = new URL('https://fucking-cors.tbodt.repl.co');
+  let nasin = new URL('https://corsproxy.io/');
   nasin.search = nasinLipu;
   if (new URL(nasinLipu).hostname !== 'cdn.discordapp.com')
     throw new Error('link must be to cdn.discordapp.com');
